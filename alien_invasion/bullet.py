@@ -18,7 +18,7 @@ class Bullet(Sprite):
 		# self.color = game_settings.bullet_color
 		# self.speed_factor = game_settings.bullet_speed_factor
 		# 把子弹换成一个好玩的图片,把图片转换成位图
-		self.image = pygame.image.load('images/生气.png').convert_alpha()
+		self.image = pygame.image.load('images/Bullet.png').convert_alpha()
 		# 修改图像大小
 		self.width,self.height = self.image.get_size()
 		self.image = pygame.transform.smoothscale(self.image,(self.width//10,self.height//10))

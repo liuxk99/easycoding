@@ -5,7 +5,7 @@ class Ship(object):
 		super(Ship, self).__init__()
 		self.game_settings = game_settings
 		self.screen = screen  # screen游戏界面
-		self.image = pygame.image.load('images/飞机.png').convert_alpha()  # 加载飞船图像
+		self.image = pygame.image.load('images/Fighter.png').convert_alpha()  # 加载飞船图像
 		# 修改图像大小
 		self.width,self.height = self.image.get_size()
 		self.image = pygame.transform.smoothscale(self.image,(self.width//2,self.height//2))

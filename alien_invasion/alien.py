@@ -6,7 +6,7 @@ class Alien(Sprite):
 		super(Alien, self).__init__()
 		self.screen = screen
 		self.game_setting = game_setting
-		self.image = pygame.image.load('images/外星飞船.png').convert_alpha()
+		self.image = pygame.image.load('images/Alien_Ship.png').convert_alpha()
 		self.width,self.height = self.image.get_size()
 		self.image = pygame.transform.smoothscale(self.image,(self.width//2,self.height//2))
 		self.rect = self.image.get_rect()
